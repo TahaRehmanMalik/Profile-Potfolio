@@ -18,7 +18,7 @@ const Experience = () => {
     const [activateTab,setActivateTab]= useState<TabKey>("MAGMA3C");
   return (
     <section id='experience' className="w-full flex flex-col mx-auto gap-4 px-4 pt-44 pb-20 md:w-3/4 bg-white text-black">
-<h3 className="text-xl text-gray-500"><span className="text-cyan-500">02.</span>Where I've Worked</h3>
+<h3 className="text-xl text-gray-500"><span className="text-cyan-500">02.</span>Where I have Worked</h3>
 <div className="flex flex-col md:flex-row  gap-8">
 <div className="w-full md:w-1/4 flex flex-col space-y-2">
     {

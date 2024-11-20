@@ -31,10 +31,10 @@ export default function Home() {
     <h3 className="text-lg md:text-2xl text-gray-500"><span className="text-cyan-500">01.</span>About</h3>
     <div className="flex flex-col md:flex-row w-full gap-8">
       <div className="w-full md:w-11/12">
-      <p>Hello! I'm Taha, a software engineer based in Lahore, PK.
+      <p>Hello! I am Taha, a software engineer based in Lahore, PK.
 I specialize in building large-scale web applications with a focus on responsive UI , scalability, and optimization. My expertise includes full-stack development using technologies like React.js, Next.js, Node.js, and Express.js.
-I am a graduate of the University of Lahore with a Bachelor of Science in Computer Science. I’ve worked with engineering, development, and research teams across various companies, contributing to meaningful and impactful projects.
-Here are a few technologies I've been working with recently:</p>
+I am a graduate of the University of Lahore with a Bachelor of Science in Computer Science. I have worked with engineering, development, and research teams across various companies, contributing to meaningful and impactful projects.
+Here are a few technologies I have been working with recently:</p>
     <div className="grid grid-cols-2 gap-2 mt-6">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center">
@@ -87,9 +87,9 @@ Here are a few technologies I've been working with recently:</p>
 <Experience/>
 {/* contact */}
    <section id="contact" className="flex flex-col  w-full mx-auto gap-4 px-4 pt-44 pb-20 md:w-3/4 bg-white text-black">
-   <h3 className="text-lg md:text-2xl flex justify-center items-center text-gray-500"><span className="text-cyan-500">03.</span>What's next</h3>
+   <h3 className="text-lg md:text-2xl flex justify-center items-center text-gray-500"><span className="text-cyan-500">03.</span>What is next</h3>
      <p className="pt-2 text-5xl flex justify-center items-center">Get In Touch</p>
-     <p className="w-full md:w-2/5 mx-auto items-center text-gray-500" >Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+     <p className="w-full md:w-2/5 mx-auto items-center text-gray-500" >Although I am not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
     <div className="flex justify-center">
      <button className="border border-cyan-500 p-2 w-max rounded-md text-gray-500"><Link href="mailto:rehmantaha588@gmail.com">Say Hello</Link></button>
     </div>
