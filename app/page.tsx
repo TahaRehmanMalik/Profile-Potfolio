@@ -89,7 +89,7 @@ Here are a few technologies I have been working with recently:</p>
    <section id="contact" className="flex flex-col  w-full mx-auto gap-4 px-4 pt-44 pb-20 md:w-3/4 bg-white text-black">
    <h3 className="text-lg md:text-2xl flex justify-center items-center text-gray-500"><span className="text-cyan-500">03.</span>What is next</h3>
      <p className="pt-2 text-5xl flex justify-center items-center">Get In Touch</p>
-     <p className="w-full md:w-2/5 mx-auto items-center text-gray-500" >Although I am not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+     <p className="w-full md:w-2/5 mx-auto items-center text-gray-500" >Although I am not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you!</p>
     <div className="flex justify-center">
      <button className="border border-cyan-500 p-2 w-max rounded-md text-gray-500"><Link href="mailto:rehmantaha588@gmail.com">Say Hello</Link></button>
     </div>
