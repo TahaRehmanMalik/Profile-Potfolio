@@ -16,8 +16,8 @@ const Navbar = () => {
               <Link to="about" smooth={true} duration={500}><span className='text-cyan-500'>01.</span> About </Link> 
               <Link to="experience" smooth={true} duration={500}><span className='text-cyan-500'>02.</span> Experience </Link> 
               <Link to="contact" smooth={true} duration={500} ><span className='text-cyan-500'>03.</span> Contact </Link> 
-              <button className=' px-2 py-2 border rounded-lg border-cyan-500 items-center flex-shrink-0'><a href='https://drive.google.com/file/d/1ALNK-9kjrXJddiWYSzKFKZ47Mje8PjlQ/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</a></button>
-             <Button/>
+              <button className=' px-2 py-2 border  border-cyan-500 items-center hover:bg-cyan-500 hover:text-white rounded-xl flex-shrink-0'><a href='https://drive.google.com/file/d/1JTdrB1Ja0kZ2rWel74CbuIgxCLouCq_G/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</a></button>
+             {/* <Button/> */}
             </div>
           
           
@@ -26,14 +26,15 @@ const Navbar = () => {
             {menuOpen?<FiX/>:<FiMenu/>}</button>        
         </nav>    
       {
-        menuOpen&&(<div className='flex flex-col gap-5 mt-4 px-6 py-3 text-black md:hidden '>
+        menuOpen&&(<div className='flex flex-col gap-5  px-6 text-black md:hidden '>
          <Link to="about" smooth={true} duration={300} ><span className='text-cyan-500'>01.</span> About </Link> 
               <Link to="experience" smooth={true} duration={300}><span className='text-cyan-500'>02.</span> Experience </Link> 
               <Link to="contact" smooth={true} duration={300}><span className='text-cyan-500'>03.</span> Contact </Link> 
              <div className='flex-grow-0'>
-             <button className=' px-2 py-2 border rounded-lg border-cyan-500'><a href='https://drive.google.com/file/d/1ALNK-9kjrXJddiWYSzKFKZ47Mje8PjlQ/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</a></button>
+             <button className=' px-2 py-2 border rounded-xl hover:bg-cyan-500 hover:text-white  border-cyan-500'><a href='https://drive.google.com/file/d/1JTdrB1Ja0kZ2rWel74CbuIgxCLouCq_G/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</a></button>
+             
              </div>
-             <Button/>
+             {/* <Button/> */}
             <div className='flex gap-3 '>
             <a href="https://github.com/TahaRehmanMalik"><FiGithub className="text-2xl"/></a>
             <a href="https://www.linkedin.com/in/taha-rehman-061131249/"><FiLinkedin className="text-2xl"/></a>

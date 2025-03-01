@@ -6,7 +6,7 @@ import Experience from "./components/Experience";
 
 export default function Home() {
   return (
-   <div className="min-h-screen w-full bg-white text-black ">
+   <div className="min-h-screen w-full bg-white text-black  ">
    <Navbar/>
    <section className=" hidden md:flex w-[5%] mt-96 h-full fixed flex-col items-center bg-white">
    {/* icons */}
@@ -15,7 +15,7 @@ export default function Home() {
    <Link href="https://www.linkedin.com/in/taha-rehman-061131249/"><FiLinkedin className="text-2xl"/></Link>
    </div>
    </section>
-   <div className="flex flex-col w-full  px-4 pt-20 pb-20 gap-4 mt-20 mx-auto md:w-3/4 md:px-10 md:pt-40 md:pb-45 bg-white text-black ">
+   <div className="flex flex-col w-full  px-4 pt-20  gap-4 mt-20 mx-auto md:w-3/4 md:px-10 md:pt-40  bg-white text-black ">
      <p className="text-cyan-500  text-lg mt-8 md:mt-11 md:text-xl ">Hi,I am</p>
      <h3 className="text-4xl md:text-8xl text-gray-500">Taha Rehman</h3>
      <h4 className="text-lg md:text-xl text-gray-500">A Software Engineer</h4>
@@ -23,11 +23,11 @@ export default function Home() {
       As a full-stack engineer, I specialize in building scalable web applications and platforms 
       with a strong focus on system design, automation, and large-scale distributed systems.</p>
      <div>
-     <button className="rounded-lg px-3 py-2 border border-cyan-500 text-gray-500"><Link href="mailto:rehmantaha588@gmail.com">Get In Touch</Link> </button>
+     <button className="rounded-xl hover:bg-cyan-500 hover:text-white px-3 py-2 border border-cyan-500 text-gray-500"><Link href="mailto:rehmantaha588@gmail.com">Get In Touch</Link> </button>
      </div>
    </div>
    {/* about */}
-   <section id="about" className="flex flex-col w-full mx-auto px-4 gap-4 pt-44 pb-20 md:w-3/4 bg-white text-black">
+   <section id="about" className="flex flex-col w-full mx-auto px-4 gap-4 pt-28   md:w-3/4 bg-white text-black">
     <h3 className="text-lg md:text-2xl text-gray-500"><span className="text-cyan-500">01.</span>About</h3>
     <div className="flex flex-col md:flex-row w-full gap-8">
       <div className="w-full md:w-11/12">
@@ -76,22 +76,28 @@ Here are a few technologies I have been working with recently:</p>
          <p className="ml-2">Firebase</p>
         </div>
       </div>
+      <div className="flex flex-col space-y-2">
+      <div className="flex items-center">
+         <span className="text-cyan-500">▹</span>
+         <p className="ml-2">Angular</p>
+        </div>
+      </div>
     </div>
       </div>
       <div className="w-full md:w-3/4">
-        <Image src="/photo.png" alt="photo" width={300} height={144} className=" object-cover rounded-lg"/>
+        <Image src="/photo.png" alt="photo" width={300} height={144} className=" object-cover rounded-xl"/>
       </div>
     </div>
    </section>
 {/* Experience */}
 <Experience/>
 {/* contact */}
-   <section id="contact" className="flex flex-col  w-full mx-auto gap-4 px-4 pt-44 pb-20 md:w-3/4 bg-white text-black">
+   <section id="contact" className="flex flex-col  w-full mx-auto gap-4 px-4 pt-md-28 pb-20 md:w-3/4 bg-white text-black">
    <h3 className="text-lg md:text-2xl flex justify-center items-center text-gray-500"><span className="text-cyan-500">03.</span>What is next</h3>
      <p className="pt-2 text-5xl flex justify-center items-center">Get In Touch</p>
      <p className="w-full md:w-2/5 mx-auto items-center text-gray-500" >Although I am not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you!</p>
     <div className="flex justify-center">
-     <button className="border border-cyan-500 p-2 w-max rounded-md text-gray-500"><Link href="mailto:rehmantaha588@gmail.com">Say Hello</Link></button>
+     <button className="border border-cyan-500 p-2 w-max rounded-xl hover:bg-cyan-500 hover:text-white text-gray-500"><Link href="mailto:rehmantaha588@gmail.com">Say Hello</Link></button>
     </div>
    </section>
    </div>

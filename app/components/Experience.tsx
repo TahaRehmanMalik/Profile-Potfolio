@@ -2,6 +2,15 @@
 import React,{useState} from 'react'
 
 const data = {
+  TeamsevenSolutions: {
+    title: "Frontend Developer @ Teamseven Solutions",
+    duration: "December 2024 - Present",
+    points: [
+      "Developing and optimizing the frontend of a client-based SaaS application using Angular, ensuring a smooth and intuitive user experience.",
+"Translating client requirements into functional and visually appealing UI components while maintaining performance and scalability",
+"Collaborating with the design and development teams to implement solutions that address client needs and improve overall software usability"
+    ],
+  },
     MAGMA3C: {
       title: "MERN Stack Developer @ MAGMA3C",
       duration: "March 2024 - August 2024",
@@ -15,15 +24,15 @@ const data = {
   };
 const Experience = () => {
     type TabKey=keyof typeof data;
-    const [activateTab,setActivateTab]= useState<TabKey>("MAGMA3C");
+    const [activateTab,setActivateTab]= useState<TabKey>("TeamsevenSolutions");
   return (
-    <section id='experience' className="w-full flex flex-col mx-auto gap-4 px-4 pt-44 pb-20 md:w-3/4 bg-white text-black">
+    <section id='experience' className="w-full flex flex-col mx-auto gap-4 px-4 pt-28 pb-20 md:w-3/4 bg-white text-black">
 <h3 className="text-xl text-gray-500"><span className="text-cyan-500">02.</span>Where I have Worked</h3>
 <div className="flex flex-col md:flex-row  gap-8">
 <div className="w-full md:w-1/4 flex flex-col space-y-2">
     {
         Object.keys(data).map((key)=>(
-            <div key={key} className={`cursor-pointer p-2 transition-all duration-300 ease-in-out ${activateTab===key?'bg-cyan-500 text-white':'bg-white text-gray-500'} `}onClick={()=>setActivateTab(key as TabKey)}>{key}</div>
+            <div key={key} className={`cursor-pointer p-2 transition-all duration-300 ease-in-out w-max ${activateTab===key?'bg-cyan-500 text-white':'bg-white text-gray-500'} `}onClick={()=>setActivateTab(key as TabKey)}>{key}</div>
         ))
     } 
   </div>
