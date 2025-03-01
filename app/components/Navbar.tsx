@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { Link } from "react-scroll";
 import React, { useState } from 'react'
-import Button from './Button';
+// import Button from './Button';
 import { FiX,FiMenu } from 'react-icons/fi'
 
 import{FiGithub,FiLinkedin} from 'react-icons/fi'
