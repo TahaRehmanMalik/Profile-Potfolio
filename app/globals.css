@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
+/* body {
     background-color: white;
     color: black;
-  }
+  } */
   
   /* Dark Mode */
-  html.dark body {
+  /* html.dark body {
     background-color: #121212;
     color: white;
-  }
+  } */
